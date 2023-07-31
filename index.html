@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="./assets/favicon.png"
+            type="image/x-icon"
+        />
+        <title>To-do List</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__welcome">
+                <h1 class="container__welcome-title">Good Morning</h1>
+                <p class="container__welcome-date">It's Wednesday, Feb 23</p>
+            </div>
+            <div class="container__new-task">
+                <input
+                    type="text"
+                    class="input__new-task"
+                    placeholder="Write a new task"
+                />
+                <button type="button" class="btn btn__add-task">ADD</button>
+            </div>
+            <!-- Tasks -->
+            <div class="container__tasks"></div>
+        </div>
+    </body>
+</html>
